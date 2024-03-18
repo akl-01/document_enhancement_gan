@@ -1,0 +1,12 @@
+gdown==5.1.0
+ipykernel==6.29.2
+matplotlib==3.8.2
+numpy==1.26.4
+pandas==2.2.0
+pillow==10.2.0
+scikit-learn==1.4.0
+tensorboard==2.16.1
+torch==2.2.0
+torchaudio==2.2.0
+torchvision==0.17.0
+
