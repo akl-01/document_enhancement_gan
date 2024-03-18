@@ -91,7 +91,9 @@ def main():
     args = parse_args()
     path_to_image = args.path_to_image.resolve()
     save_dir = args.save_dir.resolve()
-    save_dir.mkdir(exist_ok=True)
+
+    if not save_dir.suffix: 
+        save_dir.mkdir(exist_ok=True)
 
     download_model()
     eval(path_to_image, save_dir)
